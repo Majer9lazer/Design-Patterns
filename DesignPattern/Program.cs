@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using DesignPattern.Lesson3;
+using DesignPattern.Lesson3.AdapterPattern;
 using DesignPattern.Lesson3.CompositePattern;
 
 namespace DesignPattern
@@ -140,10 +142,34 @@ namespace DesignPattern
 
             #region AdapterPattern
 
-            
+            //Adapter adapter = new Adapter();
+            //Task task = new Task(() =>
+            //  {
+            //      adapter.Create();
+            //  });
+            //Task task1 = new Task(() =>
+            //{
+            //    adapter.Insert();
+            //});
+            //Task task2 = new Task(() =>
+            //{
+            //    adapter.Update();
+            //});
+            //Task task3 = new Task(() =>
+            //{
+            //    adapter.Delete();
+            //});
+
+           
+            //task2.Start();
+            //task3.Start();
+            //task.Start();
+            //task1.Start();
 
             #endregion
             #endregion
+
+            Console.ReadLine();
         }
     }
 }

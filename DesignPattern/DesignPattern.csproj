@@ -60,6 +60,9 @@
     <Compile Include="Lesson2\ProtoTypePattern\Clonable.cs" />
     <Compile Include="Lesson2\ProtoTypePattern\Qwerty.cs" />
     <Compile Include="Lesson2\SingletonPattern\Logger.cs" />
+    <Compile Include="Lesson3\AdapterPattern\Adapter.cs" />
+    <Compile Include="Lesson3\AdapterPattern\Application.cs" />
+    <Compile Include="Lesson3\AdapterPattern\IEntity.cs" />
     <Compile Include="Lesson3\CompositePattern\Circle.cs" />
     <Compile Include="Lesson3\CompositePattern\Composite.cs" />
     <Compile Include="Lesson3\CompositePattern\IComponent.cs" />
@@ -72,7 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson2\FactoryMethod\" />
-    <Folder Include="Lesson3\AdapterPattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
