@@ -57,16 +57,22 @@
     <Compile Include="Lesson1\FabricPattern\Developer.cs" />
     <Compile Include="Lesson1\FabricPattern\Fabric.cs" />
     <Compile Include="Lesson1\FabricPattern\Ios\IosDeveloper.cs" />
-    <Compile Include="Lesson2\FactoryMethod\Person.cs" />
     <Compile Include="Lesson2\ProtoTypePattern\Clonable.cs" />
     <Compile Include="Lesson2\ProtoTypePattern\Qwerty.cs" />
     <Compile Include="Lesson2\SingletonPattern\Logger.cs" />
+    <Compile Include="Lesson3\CompositePattern\Circle.cs" />
+    <Compile Include="Lesson3\CompositePattern\Composite.cs" />
+    <Compile Include="Lesson3\CompositePattern\IComponent.cs" />
+    <Compile Include="Lesson3\CompositePattern\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Lesson2\FactoryMethod\" />
+    <Folder Include="Lesson3\AdapterPattern\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

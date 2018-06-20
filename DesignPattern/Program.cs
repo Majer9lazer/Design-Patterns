@@ -1,17 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using DesignPattern.Android;
-using DesignPattern.BuilderPattern;
-using DesignPattern.Ios;
-using DesignPattern.Lesson2.FactoryMethod;
-using DesignPattern.Lesson2.ProtoTypePattern;
-using DesignPattern.Lesson2.SingletonPattern;
+using DesignPattern.Lesson3;
+using DesignPattern.Lesson3.CompositePattern;
 
 namespace DesignPattern
 {
@@ -117,10 +111,39 @@ namespace DesignPattern
 
             #region FactoryMethod
             #endregion
-
-
             #endregion
 
+            #region Lesson3
+            #region CompositePattern
+            // Composite com = new Composite("Root");
+            // Task t = new Task(() =>
+            //  {
+            //      IComponent triangle = new Triangle();
+            //      IComponent circle = new Circle();
+            //      com.Add(triangle);
+            //      com.Add(circle);
+            //  });
+            //Task t1 = new Task(() =>
+            //  {
+            //      com.Show();
+            //      Console.ForegroundColor = ConsoleColor.Green;
+            //      Console.WriteLine("-----Press any key to Exit-----");
+            //      Console.ForegroundColor = ConsoleColor.White;
+            //  });
+            // t.Start();
+            // t1.Start();
+            // Console.ForegroundColor = ConsoleColor.Yellow;
+            // Console.WriteLine("-----Waiting for the thread...");
+            // Console.ForegroundColor = ConsoleColor.White;
+            // Console.ReadLine();
+            #endregion
+
+            #region AdapterPattern
+
+            
+
+            #endregion
+            #endregion
         }
     }
 }
