@@ -63,6 +63,16 @@
     <Compile Include="Lesson3\AdapterPattern\Adapter.cs" />
     <Compile Include="Lesson3\AdapterPattern\Application.cs" />
     <Compile Include="Lesson3\AdapterPattern\IEntity.cs" />
+    <Compile Include="Lesson3\BridgePattern\Bugatti.cs" />
+    <Compile Include="Lesson3\BridgePattern\Car.cs" />
+    <Compile Include="Lesson3\BridgePattern\General.cs" />
+    <Compile Include="Lesson3\BridgePattern\IColor.cs" />
+    <Compile Include="Lesson3\BridgePattern\IType.cs" />
+    <Compile Include="Lesson3\BridgePattern\OrangeWithBlack.cs" />
+    <Compile Include="Lesson3\BridgePattern\RedColor.cs" />
+    <Compile Include="Lesson3\BridgePattern\Sport.cs" />
+    <Compile Include="Lesson3\BridgePattern\Toyota.cs" />
+    <Compile Include="Lesson3\BridgePattern\White.cs" />
     <Compile Include="Lesson3\CompositePattern\Circle.cs" />
     <Compile Include="Lesson3\CompositePattern\Composite.cs" />
     <Compile Include="Lesson3\CompositePattern\IComponent.cs" />

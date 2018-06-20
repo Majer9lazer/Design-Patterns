@@ -4,19 +4,23 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using DesignPattern.Lesson3;
 using DesignPattern.Lesson3.AdapterPattern;
+using DesignPattern.Lesson3.BridgePattern;
 using DesignPattern.Lesson3.CompositePattern;
 
 namespace DesignPattern
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             #region Lesson1
+
             #region FabricPattern
+
             /*
              *FabricRealization
             
@@ -30,8 +34,11 @@ namespace DesignPattern
 
             iosDeveloper.CreateProject();
              */
+
             #endregion
+
             #region BuilderPattern
+
             //Director director = new Director();
             //HomeBuilder builder = new StoneHomeBuilder();
             //director.StartToBuilt(builder);
@@ -40,11 +47,13 @@ namespace DesignPattern
 
 
             #endregion
+
             #endregion
 
             #region Lesson2
 
             #region SingletonPattern
+
             //Random random = new Random();
             //Logger log = Logger.GetLogger();
             //Thread[] threads = new Thread[]
@@ -112,11 +121,14 @@ namespace DesignPattern
             #endregion
 
             #region FactoryMethod
+
             #endregion
+
             #endregion
 
             #region Lesson3
             #region CompositePattern
+
             // Composite com = new Composite("Root");
             // Task t = new Task(() =>
             //  {
@@ -138,8 +150,12 @@ namespace DesignPattern
             // Console.WriteLine("-----Waiting for the thread...");
             // Console.ForegroundColor = ConsoleColor.White;
             // Console.ReadLine();
-            #endregion
 
+            #endregion
+            #region BridggePattern
+            //Car buggatyCar = new Bugatti(new OrangeWithBlack(), new Sport());
+            //buggatyCar.ApplyColorAndType();
+            #endregion
             #region AdapterPattern
 
             //Adapter adapter = new Adapter();
@@ -160,7 +176,7 @@ namespace DesignPattern
             //    adapter.Delete();
             //});
 
-           
+
             //task2.Start();
             //task3.Start();
             //task.Start();
@@ -171,5 +187,6 @@ namespace DesignPattern
 
             Console.ReadLine();
         }
+
     }
 }

@@ -28,6 +28,7 @@ namespace DesignPattern.Lesson3.AdapterPattern
         public void Insert()
         {
            AddApp();
+            
         }
 
 
