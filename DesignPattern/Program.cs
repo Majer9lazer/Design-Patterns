@@ -10,6 +10,7 @@ using DesignPattern.Lesson3;
 using DesignPattern.Lesson3.AdapterPattern;
 using DesignPattern.Lesson3.BridgePattern;
 using DesignPattern.Lesson3.CompositePattern;
+using DesignPattern.Lesson4.Proxy;
 
 namespace DesignPattern
 {
@@ -185,6 +186,14 @@ namespace DesignPattern
             #endregion
             #endregion
 
+            #region Lesson4
+            #region Proxy
+            IServer server= new ProxyServer("Helllo");
+            server.ProcessRequest();
+
+            #endregion
+
+            #endregion
             Console.ReadLine();
         }
 

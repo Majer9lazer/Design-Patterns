@@ -77,6 +77,9 @@
     <Compile Include="Lesson3\CompositePattern\Composite.cs" />
     <Compile Include="Lesson3\CompositePattern\IComponent.cs" />
     <Compile Include="Lesson3\CompositePattern\Triangle.cs" />
+    <Compile Include="Lesson4\Proxy\Iserver.cs" />
+    <Compile Include="Lesson4\Proxy\ProxyServer.cs" />
+    <Compile Include="Lesson4\Proxy\YandexServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
