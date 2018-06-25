@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Lesson4.Proxy
 {
-    internal class YandexServer:IServer
+    internal class YandexServer : IServer
     {
         private readonly string _url;
         public YandexServer(string url)
@@ -17,12 +17,12 @@ namespace DesignPattern.Lesson4.Proxy
         }
         public void ProcessRequest()
         {
-            Console.WriteLine("Processing request to "+_url);
+            Console.WriteLine("Processing request to " + _url);
         }
 
         private void Connect()
         {
-            Console.WriteLine("Connect to "+_url);
+            Console.WriteLine("Connect to " + _url);
         }
     }
 }

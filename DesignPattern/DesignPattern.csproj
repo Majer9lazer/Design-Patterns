@@ -77,6 +77,10 @@
     <Compile Include="Lesson3\CompositePattern\Composite.cs" />
     <Compile Include="Lesson3\CompositePattern\IComponent.cs" />
     <Compile Include="Lesson3\CompositePattern\Triangle.cs" />
+    <Compile Include="Lesson4\Decorator\CarDecorator.cs" />
+    <Compile Include="Lesson4\Decorator\ICar.cs" />
+    <Compile Include="Lesson4\Decorator\Sedan.cs" />
+    <Compile Include="Lesson4\Decorator\SportSedan.cs" />
     <Compile Include="Lesson4\Proxy\Iserver.cs" />
     <Compile Include="Lesson4\Proxy\ProxyServer.cs" />
     <Compile Include="Lesson4\Proxy\YandexServer.cs" />
@@ -88,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson2\FactoryMethod\" />
+    <Folder Include="Lesson4\Facade\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

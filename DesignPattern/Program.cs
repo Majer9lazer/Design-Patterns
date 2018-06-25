@@ -10,6 +10,7 @@ using DesignPattern.Lesson3;
 using DesignPattern.Lesson3.AdapterPattern;
 using DesignPattern.Lesson3.BridgePattern;
 using DesignPattern.Lesson3.CompositePattern;
+using DesignPattern.Lesson4.Decorator;
 using DesignPattern.Lesson4.Proxy;
 
 namespace DesignPattern
@@ -188,12 +189,20 @@ namespace DesignPattern
 
             #region Lesson4
             #region Proxy
-            IServer server= new ProxyServer("Helllo");
-            server.ProcessRequest();
+            //IServer server = new ProxyServer("www.google.com");
+            //server.ProcessRequest();
 
             #endregion
-
+            #region Decorator
+            //ICar car = new CarDecorator(new SportSedan(new Sedan()));
+            //Console.WriteLine(car.ShowInfo());
             #endregion
+
+            #region Facade
+            #endregion
+            #endregion
+
+            Console.WriteLine(args.Length > 0 ? args[0] : "Аргуметы пустые");
             Console.ReadLine();
         }
 
