@@ -12,6 +12,7 @@ using DesignPattern.Lesson3.BridgePattern;
 using DesignPattern.Lesson3.CompositePattern;
 using DesignPattern.Lesson4.Decorator;
 using DesignPattern.Lesson4.Proxy;
+using DesignPattern.Lesson6.Iterator;
 
 namespace DesignPattern
 {
@@ -197,12 +198,28 @@ namespace DesignPattern
             //ICar car = new CarDecorator(new SportSedan(new Sedan()));
             //Console.WriteLine(car.ShowInfo());
             #endregion
-
             #region Facade
             #endregion
             #endregion
 
-            Console.WriteLine(args.Length > 0 ? args[0] : "Аргуметы пустые");
+            #region Lesson5
+            #endregion
+
+            #region Lesson6
+            #region Iterator
+
+            string[] skiStrings = new[] {"Csharp", ".NET", "MySql"};
+            DeveloperIter developerIter= new DeveloperIter("Egor",skiStrings);
+
+            IIterator terator = developerIter.ITerator();
+            while (terator.HasNext())
+            {
+                Console.WriteLine(terator.Next());
+            }
+
+            #endregion
+
+            #endregion
             Console.ReadLine();
         }
 

@@ -84,6 +84,9 @@
     <Compile Include="Lesson4\Proxy\Iserver.cs" />
     <Compile Include="Lesson4\Proxy\ProxyServer.cs" />
     <Compile Include="Lesson4\Proxy\YandexServer.cs" />
+    <Compile Include="Lesson6\Iterator\DeveloperIter.cs" />
+    <Compile Include="Lesson6\Iterator\IIterable.cs" />
+    <Compile Include="Lesson6\Iterator\IIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,6 +96,7 @@
   <ItemGroup>
     <Folder Include="Lesson2\FactoryMethod\" />
     <Folder Include="Lesson4\Facade\" />
+    <Folder Include="Lesson5\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
