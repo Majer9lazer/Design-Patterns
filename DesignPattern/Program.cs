@@ -13,6 +13,9 @@ using DesignPattern.Lesson3.CompositePattern;
 using DesignPattern.Lesson4.Decorator;
 using DesignPattern.Lesson4.Proxy;
 using DesignPattern.Lesson6.Iterator;
+using DesignPattern.Lesson6.Iterator2;
+using DesignPattern.Lesson6.Observable;
+using DesignPattern.Lesson7.Command;
 
 namespace DesignPattern
 {
@@ -207,16 +210,52 @@ namespace DesignPattern
 
             #region Lesson6
             #region Iterator
+            #region Task1
+            //string[] skiStrings = new[] {"Csharp", ".NET", "MySql"};
+            //DeveloperIter developerIter= new DeveloperIter("Egor",skiStrings);
 
-            string[] skiStrings = new[] {"Csharp", ".NET", "MySql"};
-            DeveloperIter developerIter= new DeveloperIter("Egor",skiStrings);
+            //IIterator terator = developerIter.ITerator();
+            //while (terator.HasNext())
+            //{
+            //    Console.WriteLine(terator.Next());
+            //}
+            #endregion
+            #region Task2
+            //ArrayList<String> arrayList = new ArrayList<string>(10);
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    arrayList.Add("Element_" + i);
+            //    arrayList.RemoveLast();
+            //}
 
-            IIterator terator = developerIter.ITerator();
-            while (terator.HasNext())
-            {
-                Console.WriteLine(terator.Next());
-            }
+            //IIterator<string> iterator = arrayList.GetIterator();
+            //while (iterator.HasNext())
+            //{
+            //    Console.WriteLine(iterator.Next());
+            //}
+            #endregion
+            #endregion
 
+            #region Observable
+            //YouTubeChannel channel = new YouTubeChannel("Some");
+            //YouTubeChannel channel2 = new YouTubeChannel("Another");
+            //Subscriber subscriber = new Subscriber("Egor", channel);
+            //Subscriber subscriber2 = new Subscriber("Nastya", channel2);
+            //channel.AddObserver(subscriber);
+            //channel2.AddObserver(subscriber2);
+            //channel.AddVideo("Привет из паттернов программирования");
+            #endregion
+            #endregion
+
+            #region Lesson7
+
+            #region Command
+
+            Calculator calculator = new Calculator();
+            Terminal terminal = new Terminal(new SumCommand(calculator, 5, 4));
+            terminal.Sum();
+            terminal = new Terminal(new SumCommand(calculator, 10, 5));
+            terminal.Sum();
             #endregion
 
             #endregion

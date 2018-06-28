@@ -84,9 +84,22 @@
     <Compile Include="Lesson4\Proxy\Iserver.cs" />
     <Compile Include="Lesson4\Proxy\ProxyServer.cs" />
     <Compile Include="Lesson4\Proxy\YandexServer.cs" />
+    <Compile Include="Lesson6\Iterator2\ArrayList.cs" />
+    <Compile Include="Lesson6\Iterator2\IIterable.cs" />
+    <Compile Include="Lesson6\Iterator2\IIterator.cs" />
+    <Compile Include="Lesson6\Iterator\EArrayList.cs" />
     <Compile Include="Lesson6\Iterator\DeveloperIter.cs" />
     <Compile Include="Lesson6\Iterator\IIterable.cs" />
     <Compile Include="Lesson6\Iterator\IIterator.cs" />
+    <Compile Include="Lesson6\Observable\IObservable.cs" />
+    <Compile Include="Lesson6\Observable\IObserver.cs" />
+    <Compile Include="Lesson6\Observable\Subscriber.cs" />
+    <Compile Include="Lesson6\Observable\YouTubeChannel.cs" />
+    <Compile Include="Lesson7\Command\Calculator.cs" />
+    <Compile Include="Lesson7\Command\ICommand.cs" />
+    <Compile Include="Lesson7\Command\ITransaction.cs" />
+    <Compile Include="Lesson7\Command\SumCommand.cs" />
+    <Compile Include="Lesson7\Command\Terminal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
